@@ -1,0 +1,1 @@
+#此工作流将对拉请求进行分类，并根据在拉请求中修改的n#路径应用标签。n#n#要使用此工作流，您将需要设置配置的.gizub/labeler.ymln#文件。有关更多信息，请参见：n#https://github.com/actions/labeler/blob/master/README.md n nname：labelernon：[拉请求]n nJobs：n标签：n n Run-on：Ubuntu-最新n个步骤：n-用途：action/labeler@v2 n with：n repo-Token：“${{cryps.gITHUB_Token}}”
